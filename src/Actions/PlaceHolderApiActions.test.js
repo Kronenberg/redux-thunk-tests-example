@@ -1,8 +1,11 @@
 // In this case it works
-import configureMockStore from "redux-mock-store";
+// import configureMockStore from "redux-mock-store";
 import thunk from "redux-thunk";
+
 // At this case with default(): MockStore is not a fucntion
 // const configureStore = require('redux-mock-store').default();
+const configureMockStore = require("redux-mock-store").default;
+
 // At this case ConfigureStore is not a fucntion
 // const configureStore = require('redux-mock-store');
 
